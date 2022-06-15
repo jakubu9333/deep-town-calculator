@@ -1,22 +1,22 @@
 Title;Type;Sell Price
-Accumulator;Crafted;9
+Accumulator;Crafted;9000
 Insulated Wire;Crafted;750
 Amber insulation;Crafted;125
 Aluminium bottle;Crafted;55
 Green Laser;Crafted;400
 Amber charger;Crafted;4
 Lamp;Crafted;760
-Circuits;Crafted;2,07
+Circuits;Crafted;2070
 Battery;Crafted;200
 Satellite Dish;Quest;0
 Graphite;Crafted;15
 Copper Nail;Crafted;7
 Wire;Crafted;15
 Silver Bar;Crafted;200
-Solar panel;Crafted;69
-Motherboard;Crafted;17
-Steel Plate;Crafted;1,8
-Titanium Bar;Crafted;3
+Solar panel;Crafted;69000
+Motherboard;Crafted;17000
+Steel Plate;Crafted;1800
+Titanium Bar;Crafted;3000
 Steel Bar;Crafted;150
 Iron bar;Crafted;40
 Copper bar;Crafted;25
@@ -27,9 +27,9 @@ Moonstone;Raw;0
 Mithril;Unknown;14
 Anaptanium;Raw;0
 Arcanite;Raw;0
-Diamond Cutter;Crafted;5
-Bomb;Crafted;55,5
-Optic fiber;Crafted;10,5
+Diamond Cutter;Crafted;5000
+Bomb;Crafted;55500
+Optic fiber;Crafted;10500
 Tech inducer;Quest;0
 Portal;Quest;0
 Antenna;Quest;0
@@ -42,9 +42,9 @@ Screen Module;Quest;0
 Input Module;Quest;0
 RAM Module;Quest;0
 Amber Bracelet;Crafted;280
-Obsidian knife;Crafted;32
-Compressor;Crafted;44
-Haircomb;Crafted;14
+Obsidian knife;Crafted;32000
+Compressor;Crafted;44000
+Haircomb;Crafted;14000
 Emerald ring;Crafted;450
 Polished obsidian;Crafted;280
 Polished Alexandrite;Crafted;270
@@ -58,39 +58,39 @@ Polished amber;Crafted;70
 Gold bar;Crafted;250
 Lab Flask;Crafted;800
 Aluminium Bar;Crafted;50
-Gear;Crafted;18,5
-Maya Calendar;Crafted;6
-Solid propellant;Crafted;27
+Gear;Crafted;18500
+Maya Calendar;Crafted;6000
+Solid propellant;Crafted;27000
 Uranium;Raw;22
 Iron;Raw;3
 Copper;Raw;2
 Coal;Raw;1
-Liana;Organic;1,7
-Liana Seed;Organic;1
-Grape;Organic;1,5
-Grape Seed;Organic;1,2
+Liana;Organic;1700
+Liana Seed;Organic;1000
+Grape;Organic;1500
+Grape Seed;Organic;1200
 Tree Seed;Organic;10
 Tree;Organic;193
 Glass;Crafted;450
-Gunpowder;Chemical;2,5
-Uranium Rod;Chemical;17
-Diethyl Ether;Chemical;17
+Gunpowder;Chemical;2500
+Uranium Rod;Chemical;17000
+Diethyl Ether;Chemical;17000
 Amber;Raw;4
 Titanium;Chemical;260
-Refined oil;Chemical;16,5
-Ethanol;Chemical;4,2
+Refined oil;Chemical;16500
+Ethanol;Chemical;4200
 Sodium;Chemical;100
 Silicon;Chemical;100
 Sulfur;Chemical;100
-Sulfuric acid;Chemical;3,5
-Rubber;Chemical;4
-Clean Water;Chemical;1,2
-Liquid nitrogen;Chemical;12,5
+Sulfuric acid;Chemical;3500
+Rubber;Chemical;4000
+Clean Water;Chemical;1200
+Liquid nitrogen;Chemical;12500
 Nitrogen;Chemical;300
 Oxygen;Chemical;900
 Hydrogen;Chemical;400
 Water;Raw;5
-Plastic plate;Chemical;40
+Plastic plate;Chemical;40000
 Aluminium;Raw;5
 Gold;Raw;10
 Oil;Raw;21
@@ -100,7 +100,7 @@ Winterfest toy;Crafted;0
 Winterfest globe;Crafted;0
 Magic box;Crafted;0
 Candy batch;Crafted;350
-Sock of candies;Crafted;3
+Sock of candies;Crafted;3000
 Winter sock;Crafted;600
 Purple Gift;Crafted;0
 Yellow Gift;Crafted;0
@@ -111,7 +111,7 @@ Silver;Raw;7
 Red Candy;Raw;0
 Copper Knife;Crafted;300
 Defective pumpkin;Crafted;100
-Carved Pumpkin;Crafted;1,1
+Carved Pumpkin;Crafted;1100
 Pumpkin;Raw;50
 Obsidian;Raw;20
 Amethyst;Raw;18
@@ -144,18 +144,18 @@ Engine IL;Quest;0
 Engine IR;Quest;0
 Engine IC;Quest;0
 Stage I;Quest;0
-Dry Ice;Crafted;25
-Magnet;Crafted;300
-Electrical Engine;Crafted;745
-Magnetite Bar;Crafted;137
-Magnetite Ore;Chemical;12,5
-Enhanced Helium 3;Chemical;190
+Dry Ice;Crafted;25000
+Magnet;Crafted;300000
+Electrical Engine;Crafted;745000
+Magnetite Bar;Crafted;137000
+Magnetite Ore;Chemical;12500
+Enhanced Helium 3;Chemical;190000
 Stage II;Quest;0
-Toxic Bomb;Chemical;77,5
-Hydrochloric acid;Chemical;12
+Toxic Bomb;Chemical;77500
+Hydrochloric acid;Chemical;12000
 Rocket Type A;Crafted;100
 Rocket Type A;Crafted;100
-Chipset;Crafted;40
+Chipset;Crafted;40000
 Shards of Eternity;Raw;0
 Stone of Eternity;Quest;0
 Shards of Radiation;Raw;0
@@ -175,9 +175,9 @@ Stone of Strength;Quest;0
 Shards of Wisdom;Raw;0
 Stone of Wisdom;Quest;0
 Research Beam;Quest;0
-Lutetium Bar;Crafted;68
-Zip drive;Crafted;2,2
-Lutetium;Chemical;13,5
+Lutetium Bar;Crafted;68000
+Zip drive;Crafted;2200
+Lutetium;Chemical;13500
 Cosmic ice;Raw;100
 Sodium chloride;Raw;100
 Lutetium Ore;Raw;500
@@ -186,14 +186,14 @@ Honor badge;Crafted;0
 Fire Sparkles;Raw;0
 Pumpkin Torch;Crafted;0
 Amulet;Crafted;0
-Sapphire crystal glass;Crafted;5
-LCD Monitor;Crafted;90
-Primordial Soup;Crafted;40
-Nitrogen Tank;Crafted;110
-Corona Discharge Tube;Crafted;49
-Oxygen cylinder;Crafted;173
-Gas cylinder;Crafted;30
-Mirror Laser;Crafted;5,4
+Sapphire crystal glass;Crafted;5000
+LCD Monitor;Crafted;90000
+Primordial Soup;Crafted;40000
+Nitrogen Tank;Crafted;110000
+Corona Discharge Tube;Crafted;49000
+Oxygen cylinder;Crafted;173000
+Gas cylinder;Crafted;30000
+Mirror Laser;Crafted;5400
 Mirror;Crafted;450
 Aluminium tank;Crafted;450
 Cloning device;Quest;0
@@ -202,13 +202,13 @@ DNA Flora capsule;Raw;100
 Excimer Laser;Quest;0
 Gas storage;Quest;0
 Oxygen concentrator;Quest;0
-Steel pipe;Crafted;4,3
+Steel pipe;Crafted;4300
 Chlorine;Chemical;600
-Zeolit;Chemical;5
-Pine Tree;Organic;35
-pine seed;Organic;11
-Flora defender;Chemical;5
-Seawater;Chemical;4,9
+Zeolit;Chemical;5000
+Pine Tree;Organic;35000
+pine seed;Organic;11000
+Flora defender;Chemical;5000
+Seawater;Chemical;4900
 Pesticide nebulizer;Quest;0
 Rocket Type C;Crafted;100
 Antimatter;Quest;0

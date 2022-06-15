@@ -1,85 +1,276 @@
-Title;Building Name;Time Required;Cost To Unlock;Unlocked at Depth;Items Required
-Titanium Bar;Smelting;1 Minute;300;85;Titanium x 5
-Steel pipe;Smelting;1 Minute;255;85;Steel Plate x 1
-Coal;Smelting;1 Minute;5;40;Tree x 1
-Gold bar;Smelting;1 Minute;200;49;Gold x 5
-Silver Bar;Smelting;1 Minute;800;37;Silver x 5
-Steel Bar;Smelting;45 Seconds;700;37;Graphite x 1,Iron bar x 1
-Glass;Smelting;1 Minute;400;13;Silicon x 2
-Aluminium Bar;Smelting;15 Seconds;500;25;Aluminium x 5
-Iron bar;Smelting;15 Seconds;200;0;Iron x 5
-Copper bar;Smelting;10 Seconds;100;0;Copper x 5
-Magnetite Bar;Smelting;1 Minute;350;109;Magnetite Ore x 5
-Steel Plate;Smelting;2 Minutes;250;61;Steel Bar x 5
-Grape;Greenhouse;30 Minutes;350;62;Grape Seed x 1,Water x 15
-Liana;Greenhouse;30 Minutes;300;61;Liana Seed x 1,Water x 20
-Tree;Greenhouse;30 Minutes;1;0;Tree Seed x 1,Water x 10
-Rubber;Chemistry;30 Minutes;200;61;Liana x 1
-Sulfuric acid;Chemistry;30 Minutes;250;61;Sulfur x 2,Clean Water x 1
-Ethanol;Chemistry;30 Minutes;300;61;Aluminium bottle x 1,Grape x 2
-Refined oil;Chemistry;30 Minutes;350;73;Oil x 10,Hydrogen x 10,Lab Flask x 1
-Plastic plate;Chemistry;10 Minutes;400;73;Green Laser x 1,Coal x 50,Refined oil x 1
-Titanium;Chemistry;20 Seconds;450;85;Sulfuric acid x 1,Titanium Ore x 100
-Diethyl Ether;Chemistry;1 Minute;500;85;Sulfuric acid x 1,Ethanol x 1
-Gunpowder;Chemistry;2 Minutes;550;85;Diethyl Ether x 1,Sulfuric acid x 2,Tree x 2
-Liquid nitrogen;Chemistry;2 Minutes;555;96;Nitrogen x 10,Compressor x 1,Aluminium bottle x 1
-Magnetite Ore;Chemistry;6 Minutes;560;109;Iron bar x 10,Oxygen x 5,Green Laser x 5
-Enhanced Helium 3;Chemistry;30 Minutes;565;109;Aluminium bottle x 1,Helium 3 x 100,Compressor x 1
-Toxic Bomb;Chemistry;2 Minutes;570;109;Sulfuric acid x 10
-Hydrogen;Chemistry;15 Minutes;1;13;Clean Water x 1
-Clean Water;Chemistry;10 Minutes;800;13;Lab Flask x 1,Water x 1
-Uranium Rod;Uranium Enrichment;2 Minutes;100;84;Uranium x 20,Sodium x 10
-Polished amber;Jewel Crafting;30 Seconds;1;50;Amber x 5
-Polished emerald;Jewel Crafting;30 Seconds;15;50;Emerald x 5
-Polished Diamond;Jewel Crafting;1 Minute;30;61;Diamond x 5
-Polished Ruby;Jewel Crafting;1 Minute;25;61;Ruby x 5
-Polished Topaz;Jewel Crafting;1 Minute;20;61;Topaz x 5
-Polished Sapphire;Jewel Crafting;1 Minute;31;73;Sapphire x 5
-Polished Amethyst;Jewel Crafting;1 Minute;32;73;Amethyst x 5
-Polished Alexandrite;Jewel Crafting;1 Minute;32;85;Alexandrite x 5
-Polished obsidian;Jewel Crafting;1 Minute;33;96;Obsidian x 5
-Sapphire crystal glass;Jewel Crafting;2 Minutes;35;96;Polished Sapphire x 10
-Amber Bracelet;Jewel Crafting;2 Minutes;1,2;0;Polished amber x 1,Silver Bar x 1
-Maya Calendar;Jewel Crafting;2 Minutes;10;0;Gold bar x 10,Silver Bar x 2
-Haircomb;Jewel Crafting;2 Minutes;11;0;Polished Alexandrite x 10,Polished Amethyst x 15,Silver Bar x 1
-Obsidian knife;Jewel Crafting;2 Minutes;34;0;Polished obsidian x 50,Tree x 2,Silver Bar x 1
-Emerald ring;Jewel Crafting;5 Minutes;1,2;0;Polished emerald x 1,Gold bar x 1
-LCD Monitor;Crafting;5 Minutes;471;108;Silicon x 5,Insulated Wire x 20,Sapphire crystal glass x 5
-Electrical Engine;Crafting;5 Minutes;470;108;Aluminium Bar x 20,Magnet x 1,Insulated Wire x 50
-Magnet;Crafting;2 Minutes;465;108;Magnetite Bar x 1
-Oxygen cylinder;Crafting;2 Minutes;450;96;Oxygen x 5,Gas cylinder x 1,Compressor x 1
-Dry Ice;Crafting;2 Minutes;450;96;Graphite x 1,000,Green Laser x 10,Compressor x 1
-Compressor;Crafting;3 Minutes;420;96;Iron bar x 5,Rubber x 1,Refined oil x 2
-Lab Flask;Crafting;1 Minute;1;13;Glass x 1
-Insulated Wire;Crafting;3 Minutes 20 Seconds;1,7;24;Amber insulation x 1,Wire x 1
-Amber insulation;Crafting;20 Seconds;1,5;24;Aluminium bottle x 1,Amber x 10
-Aluminium bottle;Crafting;30 Seconds;1,3;24;Aluminium Bar x 1
-Amber charger;Crafting;5 Seconds;1,1;24;Amber x 1
-Aluminium tank;Crafting;2 Minutes;2;37;Aluminium Bar x 3
-Lamp;Crafting;1 Minute20 Seconds;900;13;Graphite x 20,Wire x 10,Copper bar x 5
-Circuits;Crafting;3 Minutes;800;13;Copper bar x 20,Graphite x 50,Iron bar x 10
-Battery;Crafting;2 Minutes;700;13;Copper bar x 5,Iron bar x 1,Amber x 1
-Wire;Crafting;30 Seconds;500;0;Copper bar x 1
-Mirror;Crafting;2 Minutes;3;37;Silver Bar x 1,Glass x 1
-Mirror Laser;Crafting;2 Minutes;4;37;Mirror x 3,Lamp x 1,Battery x 1
-Bomb;Crafting;3 Minutes;410;85;Steel Bar x 5,Gunpowder x 10
-Gear;Crafting;1 Minute20 Seconds;400;85;Diamond Cutter x 1,Titanium Bar x 1
-Gas cylinder;Crafting;3 Minutes;405;73;Steel Plate x 1,Aluminium tank x 1,Plastic plate x 1
-Solar panel;Crafting;1 Minute;400;73;Glass x 50,Silicon x 10,Rubber x 1
-Accumulator;Crafting;3 Minutes;300;72;Sodium x 20,Sulfur x 20
-Solid propellant;Crafting;20 Minutes;200;61;Rubber x 3,Aluminium Bar x 10
-Motherboard;Crafting;30 Minutes;100;61;Silicon x 3,Circuits x 3,Gold bar x 1
-Diamond Cutter;Crafting;30 Seconds;50;61;Polished Diamond x 5,Steel Plate x 1
-Green Laser;Crafting;20 Seconds;10;53;Lamp x 1,Insulated Wire x 1,Polished emerald x 1
-Optic fiber;Crafting;2 Minutes;430;96;Plastic plate x 1,Oxygen x 10,Silicon x 10
-Copper Nail;Crafting;20 Seconds;400;0;Copper bar x 1
-Copper Knife;Crafting;2 Minutes;100;0;Pumpkin x 1,Copper bar x 1
-Zip drive;Crafting;30 Seconds;10;0;Magic box x 1,Circuits x 1
-Sock of candies;Crafting;30 Seconds;10;0;Winter sock x 1,Candy batch x 2
-Winter sock;Crafting;2 Minutes 30 Seconds;10;0;Candy batch x 1,Graphite x 10,Magic box x 1
-Purple Gift;Crafting;30 Minutes;10;0;Magic box x 1,Green Candy x 300
-Yellow Gift;Crafting;30 Minutes;10;0;Magic box x 1,Yellow Candy x 300
-Crimson Gift;Crafting;30 Minutes;10;0;Magic box x 1,Red Candy x 300
-Carved Pumpkin;Crafting;4 Minutes;100;0;Pumpkin x 1,Copper Knife x 1
-Candy batch;Crafting;25 Seconds;10;0;Red Candy x 3,Yellow Candy x 3,Green Candy x 3
-Graphite;Crafting;5 Seconds;300;0;Coal x 5
+Title;Type;Sell Price
+Accumulator;Crafted;9,000
+Insulated Wire;Crafted;750
+Amber insulation;Crafted;125
+Aluminium bottle;Crafted;55
+Green Laser;Crafted;400
+Amber charger;Crafted;4
+Lamp;Crafted;760
+Circuits;Crafted;2,070
+Battery;Crafted;200
+Satellite Dish;Quest;0
+Graphite;Crafted;15
+Copper Nail;Crafted;7
+Wire;Crafted;15
+Silver Bar;Crafted;200
+Solar panel;Crafted;69,000
+Motherboard;Crafted;17,000
+Steel Plate;Crafted;1,800
+Titanium Bar;Crafted;3,000
+Steel Bar;Crafted;150
+Iron bar;Crafted;40
+Copper bar;Crafted;25
+Trillium;Raw;0
+Saronite;Raw;0
+Thorium;Raw;0
+Moonstone;Raw;0
+Mithril;Unknown;14
+Anaptanium;Raw;0
+Arcanite;Raw;0
+Diamond Cutter;Crafted;5,000
+Bomb;Crafted;55,500
+Optic fiber;Crafted;10,500
+Tech inducer;Quest;0
+Portal;Quest;0
+Antenna;Quest;0
+Propellers;Quest;0
+Jet Engine;Quest;0
+Fuselage;Quest;0
+Tesla Coil;Quest;0
+CPU Module;Quest;0
+Screen Module;Quest;0
+Input Module;Quest;0
+RAM Module;Quest;0
+Amber Bracelet;Crafted;280
+Obsidian knife;Crafted;32,000
+Compressor;Crafted;44,000
+Haircomb;Crafted;14,000
+Emerald ring;Crafted;450
+Polished obsidian;Crafted;280
+Polished Alexandrite;Crafted;270
+Polished Amethyst;Crafted;250
+Polished Sapphire;Crafted;230
+Polished Topaz;Crafted;200
+Polished Ruby;Crafted;250
+Polished Diamond;Crafted;300
+Polished emerald;Crafted;160
+Polished amber;Crafted;70
+Gold bar;Crafted;250
+Lab Flask;Crafted;800
+Aluminium Bar;Crafted;50
+Gear;Crafted;18,500
+Maya Calendar;Crafted;6,000
+Solid propellant;Crafted;27,000
+Uranium;Raw;22
+Iron;Raw;3
+Copper;Raw;2
+Coal;Raw;1
+Liana;Organic;1,700
+Liana Seed;Organic;1,000
+Grape;Organic;1,500
+Grape Seed;Organic;1,200
+Tree Seed;Organic;10
+Tree;Organic;193
+Glass;Crafted;450
+Gunpowder;Chemical;2,500
+Uranium Rod;Chemical;17,000
+Diethyl Ether;Chemical;17,000
+Amber;Raw;4
+Titanium;Chemical;260
+Refined oil;Chemical;16,500
+Ethanol;Chemical;4,200
+Sodium;Chemical;100
+Silicon;Chemical;100
+Sulfur;Chemical;100
+Sulfuric acid;Chemical;3,500
+Rubber;Chemical;4,000
+Clean Water;Chemical;1,200
+Liquid nitrogen;Chemical;12,500
+Nitrogen;Chemical;300
+Oxygen;Chemical;900
+Hydrogen;Chemical;400
+Water;Raw;5
+Plastic plate;Chemical;40,000
+Aluminium;Raw;5
+Gold;Raw;10
+Oil;Raw;21
+Red beryl;Raw;0
+Helium 3;Raw;400
+Winterfest toy;Crafted;0
+Winterfest globe;Crafted;0
+Magic box;Crafted;0
+Candy batch;Crafted;350
+Sock of candies;Crafted;3,000
+Winter sock;Crafted;600
+Purple Gift;Crafted;0
+Yellow Gift;Crafted;0
+Crimson Gift;Crafted;0
+Green Candy;Raw;0
+Yellow Candy;Raw;0
+Silver;Raw;7
+Red Candy;Raw;0
+Copper Knife;Crafted;300
+Defective pumpkin;Crafted;100
+Carved Pumpkin;Crafted;1,100
+Pumpkin;Raw;50
+Obsidian;Raw;20
+Amethyst;Raw;18
+Titanium Ore;Raw;19
+Alexandrite;Raw;19
+Ruby;Raw;15
+Sapphire;Raw;16
+Diamond;Raw;18
+Topaz;Raw;14
+Platinum;Raw;13
+Emerald;Raw;12
+Mega Pumpkin;Quest;0
+Stage I Winglet;Quest;0
+S.A.S Module;Quest;0
+Electronic Components;Quest;0
+Rocket Engine;Quest;0
+Nozzle II;Quest;0
+Nozzle IL;Quest;0
+Nozzle IR;Quest;0
+Nozzle IC;Quest;0
+Decoupler III;Quest;0
+Decoupler II;Quest;0
+Decoupler I;Quest;0
+Main Capsule;Quest;0
+Stage II Winglet;Quest;0
+Stage III;Quest;0
+Rocket LES;Quest;0
+Node;Quest;0
+Engine IL;Quest;0
+Engine IR;Quest;0
+Engine IC;Quest;0
+Stage I;Quest;0
+Dry Ice;Crafted;25,000
+Magnet;Crafted;300,000
+Electrical Engine;Crafted;745,000
+Magnetite Bar;Crafted;137,000
+Magnetite Ore;Chemical;12,500
+Enhanced Helium 3;Chemical;190,000
+Stage II;Quest;0
+Toxic Bomb;Chemical;77,500
+Hydrochloric acid;Chemical;12,000
+Rocket Type A;Crafted;100
+Rocket Type A;Crafted;100
+Chipset;Crafted;40,000
+Shards of Eternity;Raw;0
+Stone of Eternity;Quest;0
+Shards of Radiation;Raw;0
+Stone of Radiation;Quest;0
+Shards of Entropy;Raw;0
+Stone of Entropy;Quest;0
+Shards of Empathy;Raw;0
+Stone of Empathy;Quest;0
+Shards of Shine;Raw;0
+Stone of Shine;Quest;0
+Shards of Mistakes;Raw;0
+Stone of Mistakes;Quest;0
+Shards of Kindness;Raw;0
+Stone of Kindness;Quest;0
+Shards of Strength;Raw;0
+Stone of Strength;Quest;0
+Shards of Wisdom;Raw;0
+Stone of Wisdom;Quest;0
+Research Beam;Quest;0
+Lutetium Bar;Crafted;68,000
+Zip drive;Crafted;2,200
+Lutetium;Chemical;13,500
+Cosmic ice;Raw;100
+Sodium chloride;Raw;100
+Lutetium Ore;Raw;500
+Rocket Type B;Crafted;100
+Honor badge;Crafted;0
+Fire Sparkles;Raw;0
+Pumpkin Torch;Crafted;0
+Amulet;Crafted;0
+Sapphire crystal glass;Crafted;5,000
+LCD Monitor;Crafted;90,000
+Primordial Soup;Crafted;40,000
+Nitrogen Tank;Crafted;110,000
+Corona Discharge Tube;Crafted;49,000
+Oxygen cylinder;Crafted;173,000
+Gas cylinder;Crafted;30,000
+Mirror Laser;Crafted;5,400
+Mirror;Crafted;450
+Aluminium tank;Crafted;450
+Cloning device;Quest;0
+Oceanic;Quest;0
+DNA Flora capsule;Raw;100
+Excimer Laser;Quest;0
+Gas storage;Quest;0
+Oxygen concentrator;Quest;0
+Steel pipe;Crafted;4,300
+Chlorine;Chemical;600
+Zeolit;Chemical;5,000
+Pine Tree;Organic;35,000
+pine seed;Organic;11,000
+Flora defender;Chemical;5,000
+Seawater;Chemical;4,900
+Pesticide nebulizer;Quest;0
+Rocket Type C;Crafted;100
+Antimatter;Quest;0
+Artifact;Quest;0
+Portal piece III;Quest;0
+Artifact;Quest;0
+Portal piece II;Quest;0
+Artifact;Quest;0
+Artifact;Quest;0
+Artifact;Quest;0
+Portal blueprint;Quest;0
+Artifact;Quest;0
+Sandship beacon;Quest;0
+Resonators controller;Quest;0
+Portal piece I;Quest;0
+Antimatter II;Quest;0
+Antimatter III;Quest;0
+Receiver Skeleton;Quest;0
+The Portal part I;Quest;0
+The Portal part II;Quest;0
+The Portal part III;Quest;0
+Artifact;Quest;0
+Minkowski's computer;Quest;0
+Artifact;Quest;0
+Energy transducer;Quest;0
+Artifact;Quest;0
+The heart;Quest;0
+Nano ram;Quest;0
+Radar;Quest;0
+Skeleton;Quest;0
+Artifact;Quest;0
+Cooler X;Quest;0
+Cooler VIII;Quest;0
+The brain;Quest;0
+Conductor I;Quest;0
+Conductor II;Quest;0
+Conductor III;Quest;0
+Feeder;Quest;0
+Federation Chipset;Quest;0
+Radiometer;Quest;0
+Ultra Energy Absorber I;Quest;0
+Ultra Energy Absorber II;Quest;0
+Ultra Energy Absorber III;Quest;0
+Ultra Energy Absorber IV;Quest;0
+Circuit Breaker;Quest;0
+Superconductor;Quest;0
+Resonator I;Quest;0
+Resonator II;Quest;0
+Resonator III;Quest;0
+Resonator IV;Quest;0
+Resonator V;Quest;0
+Resonator VI;Quest;0
+Resonator VII;Quest;0
+Resonator VIII;Quest;0
+Resonator IX;Quest;0
+Resonator X;Quest;0
+Cooler I;Quest;0
+Cooler II;Quest;0
+Cooler III;Quest;0
+Cooler IV;Quest;0
+Cooler V;Quest;0
+Cooler VI;Quest;0
+Cooler VII;Quest;0
+Cooler XI;Quest;0
+The portal;Quest;0

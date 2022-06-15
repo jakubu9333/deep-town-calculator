@@ -6,5 +6,6 @@ public enum CraftingMethod {
     CRAFTED,
     QUEST,
     ORGANIC,
-    CHEMICAL
+    CHEMICAL,
+    UNKNOWN
 }
