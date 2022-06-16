@@ -21,7 +21,7 @@ public class ResourceDataReader {
         if (line == null) {
             return null;
         }
-        String[] splitedLine = Reader.splitLine(line);
+        String[] splitedLine = CsvReader.splitLine(line);
         CraftingMethod method = switch (splitedLine[CRAFTING_INDEX]) {
             case "Raw" -> CraftingMethod.RAW;
             case "Crafted" -> CraftingMethod.CRAFTED;
@@ -37,10 +37,10 @@ public class ResourceDataReader {
     public static Map<String,Resource> initializeResourceMap(File file) throws IOException {
         Map<String,Resource> result = new HashMap<>();
         try (BufferedReader buf = new BufferedReader(new InputStreamReader(new FileInputStream(file)))) {
-            Reader.readHeader(buf);
+            CsvReader.readHeader(buf);
             boolean run = true;
             while (run) {
-                Resource newResource = splitLineToResource(Reader.readLine(buf));
+                Resource newResource = splitLineToResource(CsvReader.readLine(buf));
                 if (newResource == null) {
                     run = false;
                 } else {

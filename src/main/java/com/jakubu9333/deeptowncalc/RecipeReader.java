@@ -25,7 +25,7 @@ public class RecipeReader{
         if (line == null) {
             return null;
         }
-        String[] splitLine = Reader.splitLine(line);
+        String[] splitLine = CsvReader.splitLine(line);
         CraftingBuilding building = switch (splitLine[BUILDING_INDEX]) {
             case "Smelting" -> CraftingBuilding.SMELTING;
             case "Chemistry" -> CraftingBuilding.CHEMISTRY;
@@ -45,10 +45,10 @@ public class RecipeReader{
 
     public static void addRecipesFromFile(File file, Map<Resource,Recipe> resourceRecipeMap,Map<String,Resource> resourceMap) throws IOException {
         try (BufferedReader buf = new BufferedReader(new InputStreamReader(new FileInputStream(file)))) {
-            Reader.readHeader(buf);
+            CsvReader.readHeader(buf);
             boolean run = true;
             while (run) {
-                Recipe newRecipe = splitLineIntoRecipe(Reader.readLine(buf));
+                Recipe newRecipe = splitLineIntoRecipe(CsvReader.readLine(buf));
                 if (newRecipe == null) {
                     run = false;
                 } else {

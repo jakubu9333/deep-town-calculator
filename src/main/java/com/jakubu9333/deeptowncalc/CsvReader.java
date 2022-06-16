@@ -6,7 +6,7 @@ import java.io.IOException;
 /**
  * @author Jakub Uhlarik
  */
-public class Reader {
+public class CsvReader {
     private static final String DELIMETER = ";";
 
     public static String readLine(BufferedReader br) throws IOException {

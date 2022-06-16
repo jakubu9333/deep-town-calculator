@@ -15,18 +15,37 @@ public class Runner {
     private static final String ADV_RECIPES_FILE = "src/main/resources/AdvancedRecipes.csv";
     private static int howMany = 0;
 
-    public static void main(String[] args) throws IOException {
+    private static Map<String, Resource> resourceMap;
+    private static Map<Resource,Recipe> recipeMap;
 
-        Map<String, Resource> resourceMap = ResourceDataReader.initializeResourceMap(new File(RESOURCES_FILE));
-        Resource dummyResource = new Resource("0",CraftingMethod.RAW,0);
-        resourceMap.put("0",dummyResource);
-        Map<Resource,Recipe> recipeMap=new HashMap<>();
-        RecipeReader.addRecipesFromFile(new File(RECIPES_FILE), recipeMap,resourceMap);
-        RecipeReader.addRecipesFromFile(new File(ADV_RECIPES_FILE), recipeMap,resourceMap);
+    public static void main(String[] args) throws IOException {
+        initResourceMap();
+        initRecipeMap();
+        Storage.setResourceMap(Runner.resourceMap);
         findFakeRecipes(recipeMap,resourceMap);
         findMissingRecipes(recipeMap,resourceMap);
 
+        Storage storageO = new Storage();
+        storageO.addToStorage("Water",10000);
+        storageO.addToStorage("Water",110);
+        storageO.addToStorage("Copper",110);
+        storageO.writeJson(System.out);
+
+        Storage xd = new Storage(new File("src/main/resources/storage.json"));
+        int a =1;
+
     }
+    private static void initResourceMap() throws IOException {
+        resourceMap = ResourceDataReader.initializeResourceMap(new File(RESOURCES_FILE));
+        Resource dummyResource = new Resource("0",CraftingMethod.RAW,0);
+        resourceMap.put("0",dummyResource);
+    }
+    private static void initRecipeMap() throws IOException {
+        recipeMap=new HashMap<>();
+        RecipeReader.addRecipesFromFile(new File(RECIPES_FILE), recipeMap,resourceMap);
+        RecipeReader.addRecipesFromFile(new File(ADV_RECIPES_FILE), recipeMap,resourceMap);
+    }
+
 
     private static void findFakeRecipes(Map<Resource, Recipe> recipeMap,Map<String,Resource> resourceMap) {
         howMany=0;
