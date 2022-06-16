@@ -12,5 +12,6 @@ public enum CraftingBuilding {
     URANIUM,
     UNKNOWN,
     FINDorBUY,
-    EVENT
+    EVENT,
+    GROUND
 }

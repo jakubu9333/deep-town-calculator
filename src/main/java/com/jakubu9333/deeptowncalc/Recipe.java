@@ -1,6 +1,7 @@
 package com.jakubu9333.deeptowncalc;
 
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
@@ -12,8 +13,12 @@ public class Recipe {
     private int seconds;
     private int depth;
     private CraftingBuilding craftingBuilding;
-    private Map<Resource,Integer> input;
+    private Map<Resource,Double> input;
     private String name;
+
+    public Map<Resource, Double> getInput() {
+        return Collections.unmodifiableMap(input);
+    }
 
     private int calculateTime(String time){
         int result=0;
@@ -40,12 +45,18 @@ public class Recipe {
         String[] resources=input.split(",");
         for (String resource:resources) {
             String [] splitRes= resource.split(" x ");
-            this.input.put(new Resource(splitRes[0]),Integer.parseInt(splitRes[1]));
+            this.input.put(new Resource(splitRes[0]),Double.parseDouble(splitRes[1]));
         }
     }
 
+    @Override
+    public String toString(){
+        return name;
+    }
 
     public String getName() {
         return name;
     }
+
+
 }

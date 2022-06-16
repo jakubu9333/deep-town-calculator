@@ -35,6 +35,7 @@ public class RecipeReader{
             case "Crafting" -> CraftingBuilding.CRAFTING;
             case "Find/Buy" -> CraftingBuilding.FINDorBUY;
             case "Event"->CraftingBuilding.EVENT;
+            case "Ground"->CraftingBuilding.GROUND;
             default -> CraftingBuilding.UNKNOWN;
         };
         return new Recipe(splitLine[NAME_INDEX],splitLine[TIME_INDEX],

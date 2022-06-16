@@ -17,16 +17,16 @@ Antimatter;Quest;0
 Antimatter II;Quest;0
 Antimatter III;Quest;0
 Arcanite;Raw;0
-Artifact 1;Quest;0
-Artifact 2;Quest;0
-Artifact 3;Quest;0
-Artifact 4;Quest;0
-Artifact 5;Quest;0
-Artifact 6;Quest;0
-Artifact 7;Quest;0
-Artifact 8;Quest;0
-Artifact 9;Quest;0
-Artifact 10;Quest;0
+Artifact;Quest;0
+Artifact;Quest;0
+Artifact;Quest;0
+Artifact;Quest;0
+Artifact;Quest;0
+Artifact;Quest;0
+Artifact;Quest;0
+Artifact;Quest;0
+Artifact;Quest;0
+Artifact;Quest;0
 Battery;Crafted;200
 Bomb;Crafted;55500
 Candy batch;Crafted;350
@@ -146,7 +146,7 @@ Oxygen;Chemical;900
 Oxygen concentrator;Quest;0
 Oxygen cylinder;Crafted;173000
 Pesticide nebulizer;Quest;0
-pine seed;Organic;11000
+Pine seed;Organic;11000
 Pine Tree;Organic;35000
 Plastic plate;Chemical;40000
 Platinum;Raw;13
@@ -244,9 +244,9 @@ Sulfuric acid;Chemical;3500
 Superconductor;Quest;0
 Tech inducer;Quest;0
 Tesla Coil;Quest;0
-The brain;Quest;0
-The heart;Quest;0
-The portal;Quest;0
+The Brain;Quest;0
+The Heart;Quest;0
+The Portal;Quest;0
 The Portal part I;Quest;0
 The Portal part II;Quest;0
 The Portal part III;Quest;0
@@ -274,3 +274,4 @@ Yellow Candy;Raw;0
 Yellow Gift;Crafted;0
 Zeolit;Chemical;5000
 Zip drive;Crafted;2200
+DNA Fauna capsule;Quest;0
