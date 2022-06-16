@@ -34,8 +34,8 @@ public class ResourceDataReader {
     }
 
 
-    public static Map<Resource,Recipe> initializeRecipeMap(File file) throws IOException {
-        Map<Resource,Recipe> result = new HashMap<>();
+    public static Map<String,Resource> initializeResourceMap(File file) throws IOException {
+        Map<String,Resource> result = new HashMap<>();
         try (BufferedReader buf = new BufferedReader(new InputStreamReader(new FileInputStream(file)))) {
             Reader.readHeader(buf);
             boolean run = true;
@@ -44,7 +44,7 @@ public class ResourceDataReader {
                 if (newResource == null) {
                     run = false;
                 } else {
-                    result.put(newResource,null);
+                    result.put(newResource.getName(),newResource);
                 }
             }
         }

@@ -14,6 +14,9 @@ public class Resource {
     public String toString() {
         return name;
     }
+    public String getName(){
+        return name;
+    }
 
     public Resource(String name, CraftingMethod howCrafted, int cost){
         this.cost=cost;

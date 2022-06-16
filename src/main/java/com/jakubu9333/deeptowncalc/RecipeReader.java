@@ -43,7 +43,7 @@ public class RecipeReader{
     }
 
 
-    public static void addRecipesFromFile(File file, Map<Resource,Recipe> resourceRecipeMap) throws IOException {
+    public static void addRecipesFromFile(File file, Map<Resource,Recipe> resourceRecipeMap,Map<String,Resource> resourceMap) throws IOException {
         try (BufferedReader buf = new BufferedReader(new InputStreamReader(new FileInputStream(file)))) {
             Reader.readHeader(buf);
             boolean run = true;
@@ -52,7 +52,7 @@ public class RecipeReader{
                 if (newRecipe == null) {
                     run = false;
                 } else {
-                    resourceRecipeMap.replace(new Resource(newRecipe.getName()),newRecipe);
+                    resourceRecipeMap.put(resourceMap.get(newRecipe.getName()),newRecipe);
                 }
             }
         }
