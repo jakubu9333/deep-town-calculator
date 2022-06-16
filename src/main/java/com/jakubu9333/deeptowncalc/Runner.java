@@ -22,9 +22,12 @@ public class Runner {
         RecipeReader.addRecipesFromFile(new File(RECIPES_FILE), recipeMap);
         RecipeReader.addRecipesFromFile(new File(ADV_RECIPES_FILE), recipeMap);
         findFakeRecipes(recipeMap);
+        findMissingRecipes(recipeMap);
+
     }
 
     private static void findFakeRecipes(Map<Resource, Recipe> recipeMap) {
+        howMany=0;
         recipeMap.forEach((key, value) -> fakeRecipes(value, recipeMap));
         System.out.println(howMany + " fake recipes");
     }
@@ -45,9 +48,10 @@ public class Runner {
         }
     }
 
-    private void findMissingRecipes(Map<Resource, Recipe> recipeMap) {
+    private static void findMissingRecipes(Map<Resource, Recipe> recipeMap) {
+        howMany=0;
         recipeMap.forEach(Runner::missingRecipes);
-
+        System.out.println(howMany + " missing recipes");
     }
 
     private static void missingRecipes(Resource resource, Recipe recipe) {
