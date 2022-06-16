@@ -1,3 +1,5 @@
+package com.jakubu9333.deeptowncalc;
+
 import java.util.List;
 
 /**
