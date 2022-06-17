@@ -13,6 +13,7 @@ public class Runner {
     private static final String RESOURCES_FILE = "src/main/resources/resources.csv";
     private static final String RECIPES_FILE = "src/main/resources/recipes.csv";
     private static final String ADV_RECIPES_FILE = "src/main/resources/AdvancedRecipes.csv";
+    private static final String STORAGE_DICTIONARY = "src/main/resources/Storages";
     private static int howMany = 0;
 
     private static Map<String, Resource> resourceMap;
@@ -24,14 +25,16 @@ public class Runner {
         Storage.setResourceMap(Runner.resourceMap);
         findFakeRecipes(recipeMap,resourceMap);
         findMissingRecipes(recipeMap,resourceMap);
-
+        Storage.setDictionary(new File(STORAGE_DICTIONARY));
         Storage storageO = new Storage();
         storageO.addToStorage("Water",10000);
         storageO.addToStorage("Water",110);
         storageO.addToStorage("Copper",110);
         storageO.writeJson(System.out);
 
-        Storage xd = new Storage(new File("src/main/resources/storage.json"));
+        Storage xd = new Storage("storage",true);
+        xd.addToStorage("Oil",1000);
+        xd.save();
         int a =1;
 
     }
