@@ -26,16 +26,8 @@ public class Runner {
         findFakeRecipes(recipeMap,resourceMap);
         findMissingRecipes(recipeMap,resourceMap);
         Storage.setDictionary(new File(STORAGE_DICTIONARY));
-        Storage storageO = new Storage();
-        storageO.addToStorage("Water",10000);
-        storageO.addToStorage("Water",110);
-        storageO.addToStorage("Copper",110);
-        storageO.writeJson(System.out);
-
-        Storage xd = new Storage("storage",true);
-        xd.addToStorage("Oil",1000);
-        xd.save();
-        int a =1;
+        MainLoop mainLoop = new MainLoop(resourceMap,recipeMap);
+        mainLoop.run();
 
     }
     private static void initResourceMap() throws IOException {

@@ -37,7 +37,7 @@ public class Recipe {
         return result;
     }
     public Recipe(String name, String time, int depth, CraftingBuilding craftingBuilding, String input) {
-        this.name = name;
+        this.name = name.toLowerCase();
         this.input=new HashMap<>();
         this.seconds = calculateTime(time);
         this.depth = depth;

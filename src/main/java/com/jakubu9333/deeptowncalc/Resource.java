@@ -20,7 +20,7 @@ public class Resource {
 
     public Resource(String name, CraftingMethod howCrafted, int cost){
         this.cost=cost;
-        this.name=name;
+        this.name=name.toLowerCase();
         this.howCrafted=howCrafted;
     }
 
@@ -37,11 +37,11 @@ public class Resource {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
         Resource resource = (Resource) o;
-        return Objects.equals(name, resource.name);
+        return Objects.equals(name.toLowerCase(), resource.name.toLowerCase());
     }
 
     @Override
     public int hashCode() {
-        return Objects.hash(name);
+        return Objects.hash(name.toLowerCase());
     }
 }

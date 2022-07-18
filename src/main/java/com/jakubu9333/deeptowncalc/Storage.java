@@ -37,6 +37,9 @@ public class Storage {
 
     public void load(){
         File file=new File(dictionary,name+".json");
+        if (!file.exists()){
+            return;
+        }
         try (Reader reader = Files.newBufferedReader(file.toPath())){
 
             // convert JSON file to map
